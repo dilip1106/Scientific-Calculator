@@ -127,6 +127,7 @@ body {
 
 .container .btns-box .shift.eq {
   background: #fcba04;
+  color: #000;
 }
 
 .container .sci-btns {
@@ -218,4 +219,5 @@ body {
 }
 .container.light .btns-box .shift.eq {
   background: #fcba04;
+  color: #000;
 }
