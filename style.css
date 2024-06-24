@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #b0c4de;
+    background: #454545;
 }
 
 .container{
@@ -123,6 +123,10 @@ body{
     display: none;
 }
 
+.container .btns-box .shift.eq{
+    background: #fcba04;
+}
+
 .container .sci-btns{
     height: 300px;
     width: 230px;
@@ -207,5 +211,8 @@ body{
 .container.light .sci-btns .back-btn{
     color: black;
 }
+.container.light .btns-box .shift.eq{
+    background: #fcba04;
+} 
 
 
