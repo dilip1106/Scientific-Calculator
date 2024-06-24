@@ -79,8 +79,6 @@ body {
   justify-content: center;
   margin-left: 20px;
   margin-top: 10px;
-  /* box-shadow:5px 5px 8px #24282e, 
-               -5px -5px 8px #24282e; */
   border: 1px solid #24282e;
   border-radius: 7px;
   cursor: pointer;
