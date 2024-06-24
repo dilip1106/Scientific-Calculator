@@ -1,60 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scientific Calculator</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="input-box">
-            <div class="toggle-btn">
-                <i class="fa-solid fa-sun" id="light-m-btn"></i>
-                <i class="fa-solid fa-moon" id="dark-m-btn"></i>
-            </div>
-            <input type="text" class="user-input" placeholder="0" readonly>
-            <h3 class="result">0</h3>
+      <div class="input-box">
+        <div class="toggle-btn">
+          <i class="fa-solid fa-sun" id="light-m-btn"></i>
+          <i class="fa-solid fa-moon" id="dark-m-btn"></i>
         </div>
-        <div class="btns-box">
-            <button id="ac" class="bg-btn" onclick="clearinput()">AC</button>
-            <button id="del-btn" onclick="backspace()"><i class="fa-solid fa-delete-left"></i></button>
-            <button class="btn bg-btn">%</button>
-            <button class="btn bg-btn">/</button>
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn bg-btn">x</button>
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn bg-btn">-</button>
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn bg-btn">+</button>
-            <button class="btn shift">0</button>
-            <button class="btn shift">.</button>
-            <button class="btns bg-btn shift eq" onclick="calculate()">=</button>
-        </div>
-        <div class="sci-btns">
-            <button class="sci-btn" onclick="sin()">sin</button>
-            <button class="sci-btn" onclick="cos()">cos</button>
-            <button class="sci-btn" onclick="tan()">tan</button>
-            <button class="sci-btn" onclick="fact()">x!</button>
-            <button class="sci-btn" onclick="pi()">&#8508;</button>
-            <button class="sci-btn" onclick="log()">log</button>
-            <button class="sci-btn btn">(</button>
-            <button class="sci-btn btn">)</button>
-            <button class="sci-btn" onclick="root()">&#8730;</button>
-            <button class="sci-btn" onclick="e()">e</button>
-            <button class="sci-btn pow-btn" onclick="pow()">x<span class="pow">y</span></button>
-            <button class="back-btn">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
-        </div>
+        <input type="text" class="user-input" placeholder="0" readonly />
+        <h3 class="result">0</h3>
+      </div>
+      <div class="btns-box">
+        <button id="ac" class="bg-btn" onclick="clearinput()">AC</button>
+        <button id="del-btn" onclick="backspace()">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button class="btn bg-btn">%</button>
+        <button class="btn bg-btn">/</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn bg-btn">x</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn bg-btn">-</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn bg-btn">+</button>
+        <button class="btn shift">0</button>
+        <button class="btn shift">.</button>
+        <button class="btns bg-btn shift eq" onclick="calculate()">=</button>
+      </div>
+      <div class="sci-btns">
+        <button class="sci-btn" onclick="sin()">sin</button>
+        <button class="sci-btn" onclick="cos()">cos</button>
+        <button class="sci-btn" onclick="tan()">tan</button>
+        <button class="sci-btn" onclick="fact()">x!</button>
+        <button class="sci-btn" onclick="pi()">&#8508;</button>
+        <button class="sci-btn" onclick="log()">log</button>
+        <button class="sci-btn btn">(</button>
+        <button class="sci-btn btn">)</button>
+        <button class="sci-btn" onclick="root()">&#8730;</button>
+        <button class="sci-btn" onclick="e()">e</button>
+        <button class="sci-btn pow-btn" onclick="pow()">
+          x<span class="pow">y</span>
+        </button>
+        <button class="back-btn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
