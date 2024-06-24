@@ -1,11 +1,7 @@
 let backbtn = document.querySelector(".container .sci-btns .back-btn");
 let scibtn = document.querySelector(".container .sci-btns");
-let lightmodebtn = document.querySelector(
-  ".container .input-box .toggle-btn #light-m-btn"
-);
-let darkmodebtn = document.querySelector(
-  ".container .input-box .toggle-btn #dark-m-btn"
-);
+let lightmodebtn = document.querySelector(".container .input-box .toggle-btn #light-m-btn");
+let darkmodebtn = document.querySelector(".container .input-box .toggle-btn #dark-m-btn");
 let container = document.querySelector(".container");
 let input = document.querySelector(".container .input-box input");
 let result = document.querySelector(".container .input-box .result");
