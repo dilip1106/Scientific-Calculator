@@ -1,4 +1,3 @@
-// let backbtn = document.querySelector(".container .sci-btns .back-btn");
 let scibtn = document.querySelector(".container .sci-btns");
 let lightmodebtn = document.querySelector(".container .input-box .toggle-btn #light-m-btn");
 let darkmodebtn = document.querySelector(".container .input-box .toggle-btn #dark-m-btn");
@@ -74,23 +73,16 @@ let pow2 = () => {
   result.innerHTML = Math.pow(result.innerHTML, 3);
 };
 
-// backbtn.addEventListener("click", () => {
-//   scibtn.classList.toggle("active");
-//   console.log("Hello");
-// });
-
 lightmodebtn.addEventListener("click", () => {
   container.classList.add("light");
   lightmodebtn.style.display = "none";
   darkmodebtn.style.display = "block";
-  console.log("Hello");
 });
 
 darkmodebtn.addEventListener("click", () => {
   container.classList.remove("light");
   lightmodebtn.style.display = "block";
   darkmodebtn.style.display = "none";
-  console.log("Hello");
 });
 
 let clearinput = () => {

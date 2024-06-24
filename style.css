@@ -179,23 +179,7 @@ body {
   right: 0.1em;
 }
 
-/* .container .sci-btns .back-btn {
-  all: unset;
-  height: 50px;
-  width: 70px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  background: orange;
-  border-radius: 50%;
-  position: absolute;
-  right: -65px;
-  bottom: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  color: #fff;
-} */
+
 
 .container.light {
   background: #dde6ec;
@@ -234,9 +218,7 @@ body {
   background: #dde6ec;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.container.light .sci-btns .back-btn {
-  color: black;
-}
+
 .container.light .btns-box .shift.eq {
   background: orange;
   border-radius: 50%;
