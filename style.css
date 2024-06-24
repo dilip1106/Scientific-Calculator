@@ -14,7 +14,7 @@ body {
   padding: 10px;
   background: #1a1f22;
   height: 550px;
-  width: 330px;
+  width: 580px;
   border-radius: 20px;
   position: absolute;
   top: 50%;
@@ -58,11 +58,13 @@ body {
 
 .container .btns-box {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 200px;
-  width: 100%;
+  width: 50%;
   padding: 10px;
-  padding-left: 20px;
+  padding-right: 310px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
 }
 
 .container .btns-box .btn,
@@ -88,16 +90,19 @@ body {
 
 .container .btns-box #ac,
 .container .btns-box #del-btn {
-  background: #24282e;
+  background: orange;
+  border-radius: 50%;
+  color: #000;
 }
 .container .btns-box .bg-btn {
-  color: grey;
-  background: #24282e;
+  color: black;
+  background: orange;
+  border-radius: 50%;
 }
 
 .container .btns-box .shift {
   position: relative;
-  left: 72px;
+  left: 0px;
 }
 
 .container .input-box .toggle-btn {
@@ -126,26 +131,27 @@ body {
 }
 
 .container .btns-box .shift.eq {
-  background: #fcba04;
+  background: orange;
+  border-radius: 50%;
   color: #000;
 }
 
 .container .sci-btns {
   height: 300px;
   width: 230px;
-  background: #fcba04;
+  background: #454545;
   border-radius: 7px;
   padding: 15px;
   margin-left: 8px;
   position: absolute;
   bottom: 30px;
-  left: -210px;
+  left: 20px;
   transition: all 0.2s;
 }
 
-.container .sci-btns.active {
+/* .container .sci-btns.active {
   left: 5px;
-}
+} */
 
 .container .sci-btns .sci-btn {
   all: unset;
@@ -163,6 +169,8 @@ body {
   position: relative;
   top: -13px;
   cursor: pointer;
+  /* border: 1px solid black; */
+  border-radius: 7px;
 }
 
 .container .sci-btns .pow-btn .pow {
@@ -171,13 +179,14 @@ body {
   right: 0.1em;
 }
 
-.container .sci-btns .back-btn {
+/* .container .sci-btns .back-btn {
   all: unset;
   height: 50px;
   width: 70px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  background: #fcba04;
+  background: orange;
+  border-radius: 50%;
   position: absolute;
   right: -65px;
   bottom: 0px;
@@ -186,10 +195,11 @@ body {
   align-items: center;
   cursor: pointer;
   color: #fff;
-}
+} */
 
 .container.light {
   background: #dde6ec;
+  
 }
 
 .container.light .input-box .result {
@@ -200,24 +210,35 @@ body {
 .container.light .btns-box .btns,
 .container.light .btns-box #ac,
 .container.light .btns-box #del-btn {
-  color: grey;
+  color: black;
   border-color: #dde6ec;
   background: #dde6ec;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-
+.container.light .btns-box .btns,
+.container.light .btns-box #ac,
+.container.light .btns-box #del-btn{
+  background: orange;
+  border-radius: 50%;
+}
 .container.light .btns-box .bg-btn {
-  color: grey;
-  background: #dde6ec;
+  color: black;
+  background: orange;
+  border-radius: 50%;
 }
 
 .container.light .sci-btns .sci-btn {
   color: black;
 }
+.container.light .sci-btns{
+  background: #dde6ec;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .container.light .sci-btns .back-btn {
   color: black;
 }
 .container.light .btns-box .shift.eq {
-  background: #fcba04;
+  background: orange;
+  border-radius: 50%;
   color: #000;
 }
